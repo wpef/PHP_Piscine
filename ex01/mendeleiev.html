@@ -2,8 +2,14 @@
 	<HEAD>
 		<TITLE></TITLE>
 		<STYLE>
-			DIV.head {height:15%; overflow : hidden;}
-			IMG.head {width:100%;}
+		DIV.head {height:15%; overflow : hidden;}
+		IMG.head {width:100%;}
+		TABLE {width:100%; table-layout: fixed;}
+		TD {padding : 10px; border : 1px solid black;}
+		TD.vide {border :none;}
+		P {line-height: 0.5em; font-size: 0.5em}
+		P.poid {text-align: right;}
+		P.main {font-size: 2em; font-weight: bold; text-align: center;};
 		</STYLE>
 	</HEAD>
 	<BODY>
@@ -15,75 +21,473 @@
 			<TABLE>
 				<TBODY>
 					<TR>
-						<TD>H</TD>
+						<TD CLASS="nmetaux">
+							<P CLASS="num">1</P>
+							<P CLASS="main">H</P>
+							<P CLASS="poid">1.00794</P>
+						</TD>
 						<TD CLASS="vide"></TD>
 						<TD CLASS='vide' COLSPAN='10' ROWSPAN='3'></TD>
 						<TD CLASS='vide' COLSPAN='5'></TD>
-						<TD>He</TD>
+						<TD CLASS="gnob">
+							<P CLASS="num">2</P>
+							<P CLASS="main">He</P>
+							<P CLASS="poid">4.002602</P>
+						</TD>
 					</TR>
 					<TR>
-						<TD>Li</TD>
-						<TD>Be</TD>
-						<TD>B</TD>
-						<TD>C</TD>
-						<TD>N</TD>
-						<TD>O</TD>
-						<TD>F</TD>
-						<TD>Ne</TD>
+						<TD CLASS="alc">
+							<P CLASS="num">3</P>
+							<P CLASS="main">Li</P>
+							<P CLASS="poid">6.941</P>
+						</TD>
+						<TD CLASS="alc-t">
+							<P CLASS="num">4</P>
+							<P CLASS="main">Be</P>
+							<P CLASS="poid">9.012182</P>
+						</TD>
+						<TD CLASS="meta">
+							<P CLASS="num">5</P>
+							<P CLASS="main">B</P>
+							<P CLASS="poid">10.811</P>
+						</TD>
+						<TD CLASS="nmetaux">
+							<P CLASS="num">6</P>
+							<P CLASS="main">C</P>
+							<P CLASS="poid">12.0107</P>
+						</TD>
+						<TD CLASS="nmetaux">
+							<P CLASS="num">7</P>
+							<P CLASS="main">N</P>
+							<P CLASS="poid">14.00674</P>
+						</TD>
+						<TD CLASS="nmetaux">
+							<P CLASS="num">8</P>
+							<P CLASS="main">O</P>
+							<P CLASS="poid">15.9994</P>
+						</TD>
+						<TD CLASS="hal">
+							<P CLASS="num">9</P>
+							<P CLASS="main">F</P>
+							<P CLASS="poid">18.9984032</P>
+						</TD>
+						<TD CLASS="gnob">
+							<P CLASS="num">10</P>
+							<P CLASS="main">Ne</P>
+							<P CLASS="poid">20.1797</P>
+						</TD>
 					</TR>
 					<TR>
-						<TD>Na</TD>
-						<TD>Mg</TD>
-						<TD>Al</TD>
-						<TD>Si</TD>
-						<TD>P</TD>
-						<TD>S</TD>
-						<TD>Cl</TD>
-						<TD>Ar</TD>
+						<TD CLASS="alc">
+							<P CLASS="num">11</P>
+							<P CLASS="main">Na</P>
+							<P CLASS="poid">22.98976928</P>
+						</TD>
+						<TD CLASS="alc-t">
+							<P CLASS="num">12</P>
+							<P CLASS="main">Mg</P>
+							<P CLASS="poid">24.3050</P>
+						</TD>
+						<TD CLASS="met-p">
+							<P CLASS="num">13</P>
+							<P CLASS="main">Al</P>
+							<P CLASS="poid">26.9815386</P>
+						</TD>
+						<TD CLASS="meta">
+							<P CLASS="num">14</P>
+							<P CLASS="main">Si</P>
+							<P CLASS="poid">28.0855</P>
+						</TD>
+						<TD CLASS="nmetaux">
+							<P CLASS="num">15</P>
+							<P CLASS="main">P</P>
+							<P CLASS="poid">30.973762</P>
+						</TD>
+						<TD CLASS="nmetaux">
+							<P CLASS="num">16</P>
+							<P CLASS="main">S</P>
+							<P CLASS="poid">32.066</P>
+						</TD>
+						<TD CLASS="hal">
+							<P CLASS="num">17</P>
+							<P CLASS="main">Cl</P>
+							<P CLASS="poid">35.4527</P>
+						</TD>
+						<TD CLASS="gnob">
+							<P CLASS="num">18</P>
+							<P CLASS="main">Ar</P>
+							<P CLASS="poid">39.948</P>
+						</TD>
 					</TR>
 					<TR>
-						<TD>K</TD>
-						<TD>Ca</TD>
-						<TD>Sc</TD>
-						<TD>Ti</TD>
-						<TD>V</TD>
-						<TD>Cr</TD>
-						<TD>Mn</TD>
-						<TD>Fe</TD>
-						<TD>Co</TD>
-						<TD>Ni</TD>
-						<TD>Cu</TD>
-						<TD>Zn</TD>
-						<TD>Ga</TD>
-						<TD>Ge</TD>
-						<TD>As</TD>
-						<TD>Se</TD>
-						<TD>Br</TD>
-						<TD>Kr</TD>
+						<TD CLASS="alc">
+							<P CLASS="num">19</P>
+							<P CLASS="main">K</P>
+							<P CLASS="poid">39.0938</P>
+						</TD>
+						<TD CLASS="alc-t">
+							<P CLASS="num">20</P>
+							<P CLASS="main">Ca</P>
+							<P CLASS="poid">40.078</P>
+						</TD>
+						<TD>
+							<P CLASS="num">21</P>
+							<P CLASS="main">Sc</P>
+							<P CLASS="poid">44.955912</P>
+						</TD>
+						<TD>
+							<P CLASS="num">22</P>
+							<P CLASS="main">Ti</P>
+							<P CLASS="poid">47.867</P>
+						</TD>
+						<TD>
+							<P CLASS="num">23</P>
+							<P CLASS="main">V</P>
+							<P CLASS="poid">50.9415</P>
+						</TD>
+						<TD>
+							<P CLASS="num">24</P>
+							<P CLASS="main">Cr</P>
+							<P CLASS="poid">51.9961</P>
+						</TD>
+						<TD>
+							<P CLASS="num">25</P>
+							<P CLASS="main">Mn</P>
+							<P CLASS="poid">54.938045</P>
+						</TD>
+						<TD>
+							<P CLASS="num">26</P>
+							<P CLASS="main">Fe</P>
+							<P CLASS="poid">55.845</P>
+						</TD>
+						<TD>
+							<P CLASS="num">27</P>
+							<P CLASS="main">Co</P>
+							<P CLASS="poid">58.933195</P>
+						</TD>
+						<TD>
+							<P CLASS="num">28</P>
+							<P CLASS="main">Ni</P>
+							<P CLASS="poid">58.6934</P>
+						</TD>
+						<TD>
+							<P CLASS="num">29</P>
+							<P CLASS="main">Cu</P>
+							<P CLASS="poid">63.546</P>
+						</TD>
+						<TD>
+							<P CLASS="num">30</P>
+							<P CLASS="main">Zn</P>
+							<P CLASS="poid">65.39</P>
+						</TD>
+						<TD CLASS="met-p">
+							<P CLASS="num">31</P>
+							<P CLASS="main">Ga</P>
+							<P CLASS="poid">69.723</P>
+						</TD>
+						<TD CLASS="meta">
+							<P CLASS="num">32</P>
+							<P CLASS="main">Ge</P>
+							<P CLASS="poid">72.61</P>
+						</TD>
+						<TD CLASS="meta">
+							<P CLASS="num">33</P>
+							<P CLASS="main">As</P>
+							<P CLASS="poid">74.92160</P>
+						</TD>
+						<TD CLASS="nmetaux">
+							<P CLASS="num">34</P>
+							<P CLASS="main">Se</P>
+							<P CLASS="poid">78.96</P>
+						</TD>
+						<TD CLASS="hal">
+							<P CLASS="num">35</P>
+							<P CLASS="main">Br</P>
+							<P CLASS="poid">79.904</P>
+						</TD>
+						<TD CLASS="gnob">
+							<P CLASS="num">36</P>
+							<P CLASS="main">Kr</P>
+							<P CLASS="poid">83.80</P>
+						</TD>
 					</TR>
 					<TR>
-						<TD>K</TD>
-						<TD>Ca</TD>
-						<TD>Sc</TD>
-						<TD>Ti</TD>
-						<TD>V</TD>
-						<TD>Cr</TD>
-						<TD>Mn</TD>
-						<TD>Fe</TD>
-						<TD>Co</TD>
-						<TD>Ni</TD>
-						<TD>Cu</TD>
-						<TD>Zn</TD>
-						<TD>Ga</TD>
-						<TD>Ge</TD>
-						<TD>As</TD>
-						<TD>Se</TD>
-						<TD>Br</TD>
-						<TD>Kr</TD>
+						<TD CLASS="alc">
+							<P CLASS="num">37</P>
+							<P CLASS="main">Rb</P>
+							<P CLASS="poid">85.4678</P>
+						</TD>
+						<TD CLASS="alc-t">
+							<P CLASS="num">38</P>
+							<P CLASS="main">Sr</P>
+							<P CLASS="poid">87.62</P>
+						</TD>
+						<TD>
+							<P CLASS="num">39</P>
+							<P CLASS="main">Y</P>
+							<P CLASS="poid">88.90585</P>
+						</TD>
+						<TD>
+							<P CLASS="num">40</P>
+							<P CLASS="main">Zr</P>
+							<P CLASS="poid">91.224</P>
+						</TD>
+						<TD>
+							<P CLASS="num">41</P>
+							<P CLASS="main">Nb</P>
+							<P CLASS="poid">92.90638</P>
+						</TD>
+						<TD>
+							<P CLASS="num">42</P>
+							<P CLASS="main">Mo</P>
+							<P CLASS="poid">95.94</P>
+						</TD>
+						<TD>
+							<P CLASS="num">43</P>
+							<P CLASS="main">Tc</P>
+							<P CLASS="poid">97.9072</P>
+						</TD>
+						<TD>
+							<P CLASS="num">44</P>
+							<P CLASS="main">Ru</P>
+							<P CLASS="poid">101.07</P>
+						</TD>
+						<TD>
+							<P CLASS="num">45</P>
+							<P CLASS="main">Rh</P>
+							<P CLASS="poid">102.90550</P>
+						</TD>
+						<TD>
+							<P CLASS="num">46</P>
+							<P CLASS="main">Pd</P>
+							<P CLASS="poid">106.42</P>
+						</TD>
+						<TD>
+							<P CLASS="num">47</P>
+							<P CLASS="main">Ag</P>
+							<P CLASS="poid">107.8682</P>
+						</TD>
+						<TD>
+							<P CLASS="num">48</P>
+							<P CLASS="main">Cd</P>
+							<P CLASS="poid">112.411</P>
+						</TD>
+						<TD CLASS="met-p">
+							<P CLASS="num">49</P>
+							<P CLASS="main">In</P>
+							<P CLASS="poid">114.818</P>
+						</TD>
+						<TD CLASS="met-p">
+							<P CLASS="num">50</P>
+							<P CLASS="main">Sn</P>
+							<P CLASS="poid">118.710</P>
+						</TD>
+						<TD CLASS="meta">
+							<P CLASS="num">51</P>
+							<P CLASS="main">Sb</P>
+							<P CLASS="poid">121.760</P>
+						</TD>
+						<TD CLASS="meta">
+							<P CLASS="num">52</P>
+							<P CLASS="main">Te</P>
+							<P CLASS="poid">127.60</P>
+						</TD>
+						<TD CLASS="hal">
+							<P CLASS="num">53</P>
+							<P CLASS="main">I</P>
+							<P CLASS="poid">126.90447</P>
+						</TD>
+						<TD CLASS="gnob">
+							<P CLASS="num">54</P>
+							<P CLASS="main">Xe</P>
+							<P CLASS="poid">131.29</P>
+						</TD>
 					</TR>
-					<TR></TR>
-					<TR></TR>
+					<TR>
+						<TD CLASS="alc">
+							<P CLASS="num">55</P>
+							<P CLASS="main">Cs</P>
+							<P CLASS="poid">132.9054519</P>
+						</TD>
+						<TD CLASS="alc-t">
+							<P CLASS="num">56</P>
+							<P CLASS="main">Ba</P>
+							<P CLASS="poid">137.327</P>
+						</TD>
+						<TD>
+							<P CLASS="num">--</P>
+							<P CLASS="main">*</P>
+							<P CLASS="poid">..</P>
+						</TD>
+						<TD>
+							<P CLASS="num">72</P>
+							<P CLASS="main">Hf</P>
+							<P CLASS="poid">178.49</P>
+						</TD>
+						<TD>
+							<P CLASS="num">73</P>
+							<P CLASS="main">Ta</P>
+							<P CLASS="poid">180.94788</P>
+						</TD>
+						<TD>
+							<P CLASS="num">74</P>
+							<P CLASS="main">W</P>
+							<P CLASS="poid">183.84</P>
+						</TD>
+						<TD>
+							<P CLASS="num">75</P>
+							<P CLASS="main">Re</P>
+							<P CLASS="poid">186.207</P>
+						</TD>
+						<TD>
+							<P CLASS="num">76</P>
+							<P CLASS="main">Os</P>
+							<P CLASS="poid">190.23</P>
+						</TD>
+						<TD>
+							<P CLASS="num">77</P>
+							<P CLASS="main">Ir</P>
+							<P CLASS="poid">192.217</P>
+						</TD>
+						<TD>
+							<P CLASS="num">78</P>
+							<P CLASS="main">Pt</P>
+							<P CLASS="poid">195.084</P>
+						</TD>
+						<TD>
+							<P CLASS="num">79</P>
+							<P CLASS="main">Au</P>
+							<P CLASS="poid">196.966569</P>
+						</TD>
+						<TD>
+							<P CLASS="num">80</P>
+							<P CLASS="main">Hg</P>
+							<P CLASS="poid">200.59</P>
+						</TD>
+						<TD CLASS="met-p">
+							<P CLASS="num">81</P>
+							<P CLASS="main">Tl</P>
+							<P CLASS="poid">204.3833</P>
+						</TD>
+						<TD CLASS="met-p">
+							<P CLASS="num">82</P>
+							<P CLASS="main">Pb</P>
+							<P CLASS="poid">207.2</P>
+						</TD>
+						<TD CLASS="met-p">
+							<P CLASS="num">83</P>
+							<P CLASS="main">Bi</P>
+							<P CLASS="poid">208.98040</P>
+						</TD>
+						<TD CLASS="meta des">
+							<P CLASS="num">84</P>
+							<P CLASS="main">Po</P>
+							<P CLASS="poid">208.9824</P>
+						</TD>
+						<TD CLASS="hal des">
+							<P CLASS="num">85</P>
+							<P CLASS="main">At</P>
+							<P CLASS="poid">209.9871</P>
+						</TD>
+						<TD CLASS="gnob des">
+							<P CLASS="num">86</P>
+							<P CLASS="main">Rn</P>
+							<P CLASS="poid">222.0176</P>
+						</TD>
+					</TR>
+					<TR>
+						<TD CLASS="alc des">
+							<P CLASS="num">87</P>
+							<P CLASS="main">Fr</P>
+							<P CLASS="poid">223.0197</P>
+						</TD>
+						<TD CLASS="alc-t des">
+							<P CLASS="num">88</P>
+							<P CLASS="main">Ra</P>
+							<P CLASS="poid">226.0254</P>
+						</TD>
+						<TD>
+							<P CLASS="num">--</P>
+							<P CLASS="main">**</P>
+							<P CLASS="poid"></P>
+						</TD>
+						<TD>
+							<P CLASS="num">104</P>
+							<P CLASS="main">Rf</P>
+							<P CLASS="poid">263.1125</P>
+						</TD>
+						<TD>
+							<P CLASS="num">105</P>
+							<P CLASS="main">Db</P>
+							<P CLASS="poid">262.1144</P>
+						</TD>
+						<TD>
+							<P CLASS="num">106</P>
+							<P CLASS="main">Sg</P>
+							<P CLASS="poid">266.1219</P>
+						</TD>
+						<TD>
+							<P CLASS="num">107</P>
+							<P CLASS="main">Bh</P>
+							<P CLASS="poid">264.1247</P>
+						</TD>
+						<TD>
+							<P CLASS="num">108</P>
+							<P CLASS="main">Hs</P>
+							<P CLASS="poid">269.1341</P>
+						</TD>
+						<TD>
+							<P CLASS="num">109</P>
+							<P CLASS="main">Mt</P>
+							<P CLASS="poid">268.1388</P>
+						</TD>
+						<TD>
+							<P CLASS="num">110</P>
+							<P CLASS="main">Ds</P>
+							<P CLASS="poid">272.1463</P>
+						</TD>
+						<TD>
+							<P CLASS="num">111</P>
+							<P CLASS="main">Rg</P>
+							<P CLASS="poid">272.1535</P>
+						</TD>
+						<TD>
+							<P CLASS="num">112</P>
+							<P CLASS="main">Cn</P>
+							<P CLASS="poid">277</P>
+						</TD>
+						<TD CLASS="met-p syn">
+							<P CLASS="num">113</P>
+							<P CLASS="main">Uut</P>
+							<P CLASS="poid">284</P>
+						</TD>
+						<TD CLASS="met-p syn">
+							<P CLASS="num">114</P>
+							<P CLASS="main">Uuq</P>
+							<P CLASS="poid">289</P>
+						</TD>
+						<TD CLASS="met-p syn">
+							<P CLASS="num">115</P>
+							<P CLASS="main">Uup</P>
+							<P CLASS="poid">288</P>
+						</TD>
+						<TD CLASS="met-p syn">
+							<P CLASS="num">116</P>
+							<P CLASS="main">Lv</P>
+							<P CLASS="poid">292</P>
+						</TD>
+						<TD CLASS="hal syn">
+							<P CLASS="num">117</P>
+							<P CLASS="main">Uus</P>
+							<P CLASS="poid">292</P>
+						</TD>
+						<TD CLASS="gnob syn">
+							<P CLASS="num">118</P>
+							<P CLASS="main">Uuo</P>
+							<P CLASS="poid">294</P>
+						</TD>
+					</TR>
 				</TBODY>
-		</TABLE>
-	</BODY>
-</HTML>
+			</TABLE>
+		</BODY>
+	</HTML>
