@@ -1,0 +1,95 @@
+body {
+	width : 1500px;
+	margin-right:auto;
+	margin-left:auto;
+}
+
+HEADER, NAV, SECTION, ASIDE {
+	position:relative;
+	display:inline;
+	border: 1px solid #909090;
+	background-color:#909090;
+	border-radius:10px;
+	width: 100%;
+	-moz-box-shadow: 10px 10px 5px 0px #000000;
+	-webkit-box-shadow: 10px 10px 5px 0px #000000;
+	-o-box-shadow: 10px 10px 5px 0px #000000;
+	box-shadow: 10px 10px 5px 0px #000000;
+	filter:progid:DXImageTransform.Microsoft.Shadow(color=#000000, Direction=134, Strength=5);
+	margin:5px;
+}
+
+/* HEADER */
+
+HEADER {
+	display:inline-block;
+	height:130px;
+}
+
+HEADER .mini {
+	position:absolute;
+	right:10px;
+	width:15px;
+}
+
+img#logo {
+	float:left;
+	height:130px;
+	margin-left:10px;
+}
+
+img#loupe {
+	float:right;
+	margin-right:20px;
+}
+
+img#close {
+	bottom:10px;
+}
+
+img#reload {
+	top:10px;
+}
+
+/* SIDES */
+
+NAV img, ASIDE img {
+	width:70px;
+	margin-top:15px;
+	margin-bottom:15px;
+	display:block;
+}
+
+NAV, ASIDE {
+	position:relative;
+	width:auto;
+	padding:10px 30px;
+	height:450px;
+}
+
+NAV {
+	float:left;
+	margin-left:25px;
+}
+
+ASIDE {
+	float:right;
+	margin-right:25px;
+}
+
+/*main*/
+
+
+#main {
+	padding:15px;
+	margin-left:auto;
+	margin-right:auto;
+	width:1145px;
+}
+
+
+
+
+
+
+
