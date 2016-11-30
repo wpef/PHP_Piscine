@@ -5,23 +5,37 @@
 	</HEAD>
 	<BODY>
 		<HEADER>
-		<IMG class="mini" id="reload" src="resources/reload.png" title="Recommencer au début" />
-		<IMG src="resources/day_of_the_42.png" title="logo" id="logo" />
-		<IMG src="resources/loupe.png" title="search" id="loupe" />
-		<IMG class="mini" id="close" src="resources/close.gif" title="Close" />
+			<a href="http://www.disney.com">
+		<IMG class="mini" id="reload" src="resources/reload.png" title="Recommencer au début" alt="reload" />
+	</a>
+		<IMG src="resources/day_of_the_42.png" title="logo" alt="Day of the 42" id="logo" />
+		<IMG src="resources/loupe.png" alt="search" title="search" id="loupe" />
+	<a href="http://www.relaischateaux.com">
+		<IMG class="mini" id="close" src="resources/close.gif" title="Close" alt="Close" />
+	</a>
 		</HEADER>
 			<NAV>
-			<IMG src="resources/arrow.png" title="Avancer" />
-			<IMG src="resources/main.png" title="Prendre" />
-			<IMG src="resources/oeil.png" title="Regarder" />
-			<IMG src="resources/outil.png" title="Utiliser" />
-			<IMG src="resources/chat-icon.png" title="Parler" />
+			<IMG src="resources/arrow.png" title="Avancer" alt="Avancer" />
+			<IMG src="resources/main.png" title="Prendre" alt="Prendre" />
+			<IMG src="resources/oeil.png" title="Regarder" alt="Regarder" />
+			<IMG src="resources/outil.png" title="Utiliser" alt="Utiliser" />
+			<IMG src="resources/chat-icon.png" title="Parler" alt="Parler" />
 			</NAV>
-			<IMG id="main" src="resources/cluster.jpg" title="MAIN" />
+			<IMG id="main" src="resources/cluster.jpg" title="MAIN" alt="Cluster" usemap="map" />
+			<map name="map">
+				    <area alt="chair" title="chair" href="http://www.ikea.com" shape="rect" coords="326,324,477,563" />
+    				<area alt="computer" title="computer" href="http://www.apple.com" shape="rect" coords="802,312,1003,483" />
+			</map>
 			<ASIDE>
-			<IMG src="resources/book.png" title="book" />
-			<IMG src="resources/towel.png" title="towel" />
-			<IMG src="resources/brick.jpg" title="brick" />
+			<IMG src="resources/book.png" title="book" alt="book" />
+			<IMG src="resources/towel.png" title="towel" alt="towel" />
+			<IMG src="resources/brick.jpg" title="brick" alt="brick" />
 			</ASIDE>
+			<div class="box">
+				<p>Vous <span id="fat">entrez</span> alors dans une grande piece remplie<br /> d'<span id="small">ordinateurs</span>...
+				<br /><em>- Bonjour, vous 	&ecirc;tes nouveaux ici ?</em></p>
+				<textarea id="ans" rows="1" cols="65"></textarea>
+				<button id="ans" type="button">R&eacute;pondre</button>
+			</div>
 	</BODY>
 </HTML>

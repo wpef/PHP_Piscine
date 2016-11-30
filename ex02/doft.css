@@ -1,92 +1,129 @@
+html {
+    background-color: #484848;
+}
+
 body {
-	width : 1500px;
-	margin-right:auto;
-	margin-left:auto;
+	width: 1500px;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 15px;
 }
 
 HEADER, NAV, SECTION, ASIDE, #main {
-	position:relative;
-	display:inline;
+	position: relative;
+	display: inline;
 	border: 1px solid #909090;
 	background-color:#909090;
-	border-radius:10px;
+	border-radius: 10px;
 	width: 100%;
 	-moz-box-shadow: 10px 10px 5px 0px #000000;
 	-webkit-box-shadow: 10px 10px 5px 0px #000000;
 	-o-box-shadow: 10px 10px 5px 0px #000000;
 	box-shadow: 10px 10px 5px 0px #000000;
 	filter:progid:DXImageTransform.Microsoft.Shadow(color=#000000, Direction=134, Strength=5);
-	margin:5px;
+	margin: 5px;
 	margin-top: 10px;
 }
 
 /* HEADER */
 
 HEADER {
-	display:inline-block;
-	height:130px;
+	display: inline-block;
+	height: 130px;
 }
 
 HEADER .mini {
 	position:absolute;
-	right:10px;
-	width:15px;
+	right: 10px;
+	width: 15px;
 }
 
 img#logo {
-	float:left;
-	height:130px;
-	margin-left:10px;
+	float: left;
+	height: 130px;
+	margin-left: 10px;
 }
 
 img#loupe {
-	float:right;
-	margin-right:20px;
+	float: right;
+	margin-right: 20px;
 }
 
 img#close {
-	bottom:10px;
+	bottom: 10px;
 }
 
 img#reload {
-	top:10px;
+	top: 10px;
 }
 
 /* SIDES */
 
 NAV img, ASIDE img {
-	width:70px;
-	margin-top:15px;
-	margin-bottom:15px;
-	display:block;
+	width: 70px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	display: block;
 }
 
-NAV, ASIDE, DIV {
-	position:relative;
-	width:auto;
-	padding:10px 30px;
-	height:450px;
+NAV, ASIDE {
+	position: relative;
+	width: auto;
+	padding: 10px 30px;
+	height: 450px;
 }
 
 NAV {
 	float:left;
-	margin-left:25px;
+	margin-left: 25px;
 }
 
 ASIDE {
 	float:right;
-	margin-right:25px;
+	margin-right: 25px;
 }
 
 /*main*/
 
 
 #main {
-	padding:15px;
-	width:1100px;
+	padding: 15px;
+	width: 1100px;
 	margin-left: 20px;
 }
 
+/* TEXT BOX */
+
+.box {
+	position: relative;
+	top:-100px;
+    border: 1px solid rgb(71, 181, 69);
+    border-radius: 10px;
+    display: inline-block;
+    background-color: rgb(94, 241, 91);
+    padding: 0px 40px 40px 10px;
+}
+
+p {
+    font-family: Verdana;
+    letter-spacing: 1px;
+}
+
+span#fat {
+	font-size: 45px;
+	font-family:Palatino;
+}
+
+span#small {
+    text-shadow: 4px 4px 4px red;
+}
+
+#ans {
+	resize: none;
+	float: left;
+	display: table-cell;
+	margin: 0px 10px;
+}
 
 
 
