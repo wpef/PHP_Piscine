@@ -61,15 +61,13 @@ img#reload {
 
 NAV img, ASIDE img {
 	width: 70px;
-	margin-top: 15px;
-	margin-bottom: 15px;
+	margin: 15px auto 15px auto;
 	display: block;
 }
 
 NAV, ASIDE {
 	position: relative;
-	width: auto;
-	padding: 10px 30px;
+	width: 130px;
 	height: 450px;
 }
 
@@ -83,7 +81,22 @@ ASIDE {
 	margin-right: 25px;
 }
 
-/*main*/
+	/*brick*/
+div#brick {
+	display: block;
+	height: 70px;
+	width: 120px;
+	margin: 15px auto 15px auto;
+	background-image: url("resources/brick.jpg");
+    background-repeat: repeat;
+}
+
+.select {
+	border : 5px solid red;
+	border-radius: 5px;
+}
+
+/*MAIN*/
 
 
 #main {
@@ -102,11 +115,20 @@ ASIDE {
     display: inline-block;
     background-color: rgb(94, 241, 91);
     padding: 0px 40px 40px 10px;
+    	-moz-box-shadow: 10px 10px 5px 0px #000000;
+	-webkit-box-shadow: 10px 10px 5px 0px #000000;
+	-o-box-shadow: 10px 10px 5px 0px #000000;
+	box-shadow: 10px 10px 5px 0px #000000;
+	filter:progid:DXImageTransform.Microsoft.Shadow(color=#000000, Direction=134, Strength=5);
 }
 
 p {
     font-family: Verdana;
     letter-spacing: 1px;
+}
+
+button, textarea {
+	font-size: 15px;
 }
 
 span#fat {
