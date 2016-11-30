@@ -4,7 +4,7 @@ body {
 	margin-left:auto;
 }
 
-HEADER, NAV, SECTION, ASIDE {
+HEADER, NAV, SECTION, ASIDE, #main {
 	position:relative;
 	display:inline;
 	border: 1px solid #909090;
@@ -17,6 +17,7 @@ HEADER, NAV, SECTION, ASIDE {
 	box-shadow: 10px 10px 5px 0px #000000;
 	filter:progid:DXImageTransform.Microsoft.Shadow(color=#000000, Direction=134, Strength=5);
 	margin:5px;
+	margin-top: 10px;
 }
 
 /* HEADER */
@@ -60,7 +61,7 @@ NAV img, ASIDE img {
 	display:block;
 }
 
-NAV, ASIDE {
+NAV, ASIDE, DIV {
 	position:relative;
 	width:auto;
 	padding:10px 30px;
@@ -82,9 +83,8 @@ ASIDE {
 
 #main {
 	padding:15px;
-	margin-left:auto;
-	margin-right:auto;
-	width:1145px;
+	width:1100px;
+	margin-left: 20px;
 }
 
 
