@@ -1,0 +1,43 @@
+body {
+	margin: auto;
+}
+
+.wrap {
+	height : 80px;
+	width: 302px;
+	overflow: hidden;
+}
+
+.wrap:hover {
+	height : 80px;
+	overflow: visible;
+}
+
+.head {
+	background-color: #0089ff !important;
+}
+
+.head, .item {
+    width: 300px;
+    height: 80px;
+    border: 1px solid #24cdff;
+    background-color: #6fdfe4;
+}
+
+a:hover .item:hover {
+	background-color: white;
+	color: #6fdfe4;
+	text-decoration: none;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+p {
+	font-family: sans-serif;
+	margin-top: 25px;
+	font-size:30px;
+	text-align: center;
+}
