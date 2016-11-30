@@ -1,0 +1,88 @@
+DIV.head {
+	height:15%;
+	overflow : hidden;
+}
+
+IMG.head {
+	width:100%;
+}
+
+TABLE {
+	width:100%;
+	table-layout: fixed;
+	margin-top: 2em;
+}
+
+TD {
+	padding : 5px;
+	border : 2px solid black;
+}
+
+TD.vide {
+	border :none;
+}
+
+TD.nmetaux {
+	background-color: #b6ffaf;
+}
+
+TD.gnob{
+	background-color: #afb3ff;
+}
+
+TD.alc {
+	background-color: #ffafbd;
+}
+
+TD.alc-t {
+	background-color: #fff0af;
+}
+
+TD.meta {
+	background-color: #c9b79b;
+}
+
+TD.met-p {
+	background-color: #cecece;
+}
+
+TD.met-t {
+	background-color: #ff9389;
+}
+
+TD.hal {
+	background-color: #fdff8c;
+}
+
+TD.des {
+	border : 2px dashed black;
+}
+
+TD.syn {
+	border : 2px dotted black;
+}
+
+H1 {
+	font-family: sans-serif;
+	text-align: center;
+}
+
+P {
+	line-height: 0.5vw;
+	font-size: 0.5vw;
+}
+
+P.num {
+	text-align: right;
+}
+
+P.poid {
+	padding: -5px;
+}
+
+P.main {
+	font-size: 2vw;
+	font-weight: bold;
+	text-align: center;
+}
+;
