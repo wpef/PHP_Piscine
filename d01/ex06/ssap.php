@@ -19,6 +19,8 @@ function ft_splittab($arg)
 	{
 		if ($tab[$i] and ($tab[$i] != "\t" || $tab[$i] != " "))	
 		{
+			if (strstr($tab[$i], "#[\s\t]#"))
+				print($tab[$i]);
 			$ret[$j] = $tab[$i];
 			$i++; $j++;
 		}
