@@ -4,6 +4,7 @@
 function argv_copy($arg)
 {
 	$i = 1;
+	$j = 0;
 	while ($arg[$i])
 		$ret[$j++] = $arg[$i++];
 	return $ret;
@@ -58,7 +59,8 @@ if ($argv[1])
 {
 	$i = 0;
 	$tab = ft_splittab($argv);
-	sort($tab);
+	if (is_array($tab))
+		sort($tab);
 	while ($tab[$i] == "\t" || $tab[$i] == " " || !$tab[$i])	
 		$i++;
 	while ($tab[$i])
