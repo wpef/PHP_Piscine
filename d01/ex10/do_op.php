@@ -37,23 +37,14 @@ function ft_split($argv)
 		if ($i == 0 or $i == 2)
 		{
 			if ($ret[$i] == "")
-			{
-				echo "Invalid Parameters\n";
 				exit();
-			}
 			if (!ctype_digit($ret[$i]))
-			{
-				echo "Invalid Parameters\n";
 				exit();
-			}
 		}
 		else
 		{
 			if ($ret[$i] == "ERROR")
-			{
-				echo "Invalid Parameters\n";
 				exit();
-			}
 		}
 	}
 	return $ret ;
