@@ -42,10 +42,8 @@ function ft_split($argv)
 				exit();
 		}
 		else
-		{
 			if ($ret[$i] == "ERROR")
 				exit();
-		}
 	}
 	return $ret ;
 }
