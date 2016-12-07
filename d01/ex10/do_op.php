@@ -74,6 +74,6 @@ if ($argi == 4)
 	echo dothemath($tab)."\n";
 }
 else
-	echo "Invalid Parameters\n";
+	echo "Incorrect Parameters\n";
 
 ?>
