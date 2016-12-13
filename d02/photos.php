@@ -1,22 +1,14 @@
 #!/usr/bin/php
 <?php
-
 function get_imgurl($tab)
 {
 	$i = 0;
-	while ($tab[0][$i] != NULL)
-	{
-		echo ("\$tab[0][".$i.'] = '.$tab[0][$i]."\n");
+	for ($i = 0; $tab[0][$i] != NULL; $i++) {
 		preg_match('#src=\"([A-Za-z0-9\.:/\_?%=-]+)#', $tab[0][$i], $ret[$i]);
-		$i++;
-		//$len = strlen($tab[$i]) - 11;
-		//$ret[$i] = substr($tab[$i++], 10, $len);
 	}
-	echo "\n------ RET -----\n";
-	print_r($ret);
-	$i = 0;
-	while ($ret[$i])
+	for ($i = 0; $i < count($ret); $i++) {
 		$return[$i] = $ret[$i][1];
+	}
 	return $return;
 }
 
@@ -31,11 +23,13 @@ function get_images($argv)
 	return $imgurl;
 }
 
-function dl_images($imgurls, $path)
+function dl_images($imgurls, $path, $url)
 {
 	if (is_array($imgurls))
 	{
 		foreach ($imgurls as $img) {
+			if ($img[0] == "/")
+				continue;
 			$imgname = preg_split("#/#", $img);
 			$imgname = $imgname[count($imgname) - 1];
 			$ch = curl_init($img);
@@ -48,6 +42,7 @@ function dl_images($imgurls, $path)
 		}
 	}
 	else if ($imgurls != NULL) {
+		echo "1 IMAGE FOUND !";
 		$imgname = preg_split("#/#", $imgurls);
 		$imgname = $imgname[count($imgname) - 1];
 		$ch = curl_init($imgurls);
@@ -68,12 +63,7 @@ if ($argv[1])
 	$file = substr($argv[1], 7);
 	$file = "./".$file."/";
 	$imgurls = get_images($argv);
-	if ($imgurls) {
-		if (is_dir($file))
-			rmdir($file);
-		if (!mkdir($file))
-			echo "MKDIR: ERROR";
-		dl_images($imgurls, $file);
-	}
+	if ($imgurls && mkdir($file))
+		dl_images($imgurls, $file, $url);
 }
 ?>
