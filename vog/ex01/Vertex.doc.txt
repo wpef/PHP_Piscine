@@ -1,0 +1,41 @@
+<- Vertex ----------------------------------------------------------------------
+The Vertex class handles points in space.
+
+An instance must be constructed from the points values as (the attributes between [] signs are optional : 
+new Vertex( array('x' => 0 , 'y' => 0, 'z' => 0 [, 'w' => 0, 'color' => $Color]) );
+
+X, Y, Z and W must be numeric values and can be floats as well or are set to 0 by default (W is set to 1.0). Negative are left as is.
+$Color must be an instance of Color class as describe in Color.doc.txt (call doc method for more info). If not given or is not an instance of Color class, $color wille be set to white. 
+
+The class provides the following methods :
+
+Vertex   setX( $i );
+set _X attribute $i value for current Vertex instance.
+
+Vertex   setY( $i );
+set _y attribute $i value for current Vertex instance.
+
+Vertex   setZ( $i );
+set _z attribute $i value for current Vertex instance.
+
+Vertex   setW( $i );
+set _w attribute $i value for current Vertex instance.
+
+Vertex   setColor( $color );
+set Color attribute value for current Vertex instance. $color must be an instance of Color class or left as is.
+
+Vertex   getX( );
+get _X attribute value for current Vertex instance.
+
+Vertex   getY( );
+get _y attribute value for current Vertex instance.
+
+Vertex   getZ( );
+get _z attribute value for current Vertex instance.
+
+Vertex   getW( );
+get _w attribute value for current Vertex instance.
+
+Vertex   getColor( );
+get Color attribute value for current Vertex instance.
+---------------------------------------------------------------------- Vertex ->
